@@ -1,0 +1,60 @@
+{
+  "note": "Captured from the local app demo. Scores and content are illustrative; no video or audio was fetched or analyzed.",
+  "response": {
+    "result": {
+      "id": "analysis_1794810624157_q8rnx",
+      "url": "https://www.instagram.com/reel/C8_SaaS_ViralAd/",
+      "analyzedAt": "2026-11-16T06:30:24.157Z",
+      "hookScore": 94,
+      "hookType": "Pattern Interrupt + Problem Agitate",
+      "emotionalTrigger": "FOMO + Cognitive Relief",
+      "openingHook": "\"Wait — you're still spending 3 hours doing competitor research the manual way? Look at this screen right now...\"",
+      "platform": "Instagram Reels / TikTok",
+      "estimatedDuration": "28 seconds",
+      "pacing": "Fast-paced (2.2 cuts/sec during hook, settling into structured walkthrough)",
+      "targetAudience": "Growth Marketers, Founders & Agencies (Age 22-42)",
+      "ctaType": "Frictionless Free Value (Link in Bio / Comment trigger)",
+      "scriptStructure": [
+        {
+          "label": "HOOK",
+          "duration": "0–3s",
+          "content": "High-contrast visual interrupt: Creator points at a glowing analytics screen with dramatic facial expression.",
+          "note": "Captures attention in the first 1.2s before swipe threshold."
+        },
+        {
+          "label": "PROBLEM",
+          "duration": "3–10s",
+          "content": "Empathy agitate: 'You watch 50 competitor ads, scribble messy notes in Notion, and still have no idea why their ad scaled.'",
+          "note": "Names the exact everyday frustration in creator's own vocabulary."
+        },
+        {
+          "label": "SOLUTION",
+          "duration": "10–22s",
+          "content": "Fast-motion demonstration: AdSpy AI extracts the hook formula, 5 Sora video prompts, and camera-ready script in 60s.",
+          "note": "Features concrete proof of speed rather than vague promises."
+        },
+        {
+          "label": "CTA",
+          "duration": "22–28s",
+          "content": "Comment 'SPY' or tap the link in bio to analyze your first ad 100% free.",
+          "note": "Single unambiguous call-to-action reduces decision fatigue."
+        }
+      ],
+      "soraPrompts": [
+        "Cinematic close-up of a modern growth marketer at an electric-blue backlit desk, smartphone showing skyrocketing ROAS graphs, neon holographic UI floating above screen, 4K quality, 8 seconds, smooth pan.",
+        "High-energy split screen: Left side shows overwhelmed creative surrounded by messy sticky notes; Right side shows streamlined creator smiling at completed Sora ad pipeline, dramatic lighting transition.",
+        "Studio macro shot of a sleek smartphone interface rendering a 3D deconstructed video ad into glowing labeled nodes (Hook, Problem, Solution, CTA), cinematic depth of field, 10 seconds.",
+        "Handheld authentic UGC style: Creator holding phone towards camera in daylight office, pointing at live metrics dashboard showing 4.2x ROAS spike, casual enthusiastic delivery.",
+        "Abstract cinematic motion graphic: Golden kinetic energy threads deconstructing viral video clips and weaving into an optimized storyboard with cyan light rays, 8 seconds."
+      ],
+      "ugcScript": "[HOOK — 0:00 - 0:03]\n🎬 \"Stop spending 3 hours guessing what makes competitor ads go viral...\"\n\n[PROBLEM — 0:03 - 0:10]\nMost marketers spend their entire morning manually scrolling TikTok and Instagram, bookmarking winning ads, but never cracking the exact psychological framework behind them.\n\n[SOLUTION — 0:10 - 0:21]\nAdSpy AI reverse-engineers any viral ad link in under 90 seconds. It decodes the exact hook trigger, visual pacing, script structure, and instantly outputs 5 Sora 2 video prompts ready to shoot.\n\n[CTA — 0:21 - 0:28]\n🔗 Tap the link below right now. Paste your first competitor ad link and get the full analysis free.\nTakes less than 2 minutes."
+    },
+    "isDemo": true,
+    "note": "Running in Calibrated Demo Mode. Set GROQ_API_KEY or OPENAI_API_KEY in .env.local for live AI parsing.",
+    "provider": "demo",
+    "entitlement": {
+      "planName": "Free Beta",
+      "dailyLimit": 5
+    }
+  }
+}

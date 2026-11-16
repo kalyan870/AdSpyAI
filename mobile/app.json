@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "AdSpy AI",
+    "slug": "adspy-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050B1A"
+    },
+    "android": {
+      "package": "com.adspyai.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#050B1A"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
